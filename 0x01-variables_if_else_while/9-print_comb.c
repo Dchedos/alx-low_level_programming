@@ -5,7 +5,7 @@
  *
  * Return: Always (Success);
  */
-iny main(void)
+int main(void)
 {
 	int c;
 
@@ -13,7 +13,7 @@ iny main(void)
 	{
 		putchar(c);
 
-		if (c != '9');
+		if (c != '9')
 		{
 			putchar(',');
 			putchar(' ');
