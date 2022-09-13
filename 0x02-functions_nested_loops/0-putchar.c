@@ -5,7 +5,8 @@
  *
  * Return: Always 0
  */
-int main(void)
+int print (int, int) /*function declaration*/
+int main(void) /*variable declaration*/
 {
 	_putchar('_');
 	_putchar('p');
@@ -18,4 +19,9 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
+}
+
+int print (void) /*function definition*/
+{
+	printf("_putchar\n");
 }
