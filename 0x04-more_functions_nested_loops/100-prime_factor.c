@@ -1,26 +1,26 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_square - check for a digit
- * @n: number of _ to be printed
- * Return: void
+ * main - prime numbers
+ *
+ * Return: 0
  */
 
-void print_square(int n)
+int main(void)
 {
-	int i = 0, ii;
+	long num = 612852475143;
+	long divisor = 2;
+	long larg_prim = 0
 
-	while (i < n && n > 0)
+	while (num != 1)
 	{
-		ii = 0;
-		while (ii < n)
+		if (num % divisor == 0)
 		{
-			_putchar('#');
-			ii++;
+			num = num / divisor;
+			larg_prim = divisor;
 		}
-		_putchar('\n');
-		i++;
+		divisor += 1;
 	}
-	if (i == 0)
-		_putchar('\n');
+	printf("%ld\n", larg_prim);
+	return (0);
 }
