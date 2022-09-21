@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * reverse_array - flips an array
  * @a: an array to be flipped
  * @n: number of elements in the array
