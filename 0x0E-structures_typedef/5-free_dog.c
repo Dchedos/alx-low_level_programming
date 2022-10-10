@@ -3,6 +3,7 @@
 
 /**
  * free_dog - Frees a dog
+ * @d: A dog struct
  *
  * Return: Null void
  */
